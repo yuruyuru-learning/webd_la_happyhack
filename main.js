@@ -1,9 +1,23 @@
 $(document).ready(() => {
-  $('.slider').slick({
-    autoplay: false,
-    dots: true,
-    slidesToShow: 4,
-    slidesToScroll: 1
+  if (window.innerWidth < 480) {
+    $('.slider').slick({
+      autoplay: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    })
+  } else {
+    $('.slider').slick({
+      autoplay: false,
+      dots: true,
+      slidesToShow: 4,
+      slidesToScroll: 1
+    })
+  }
+  $('.fade').on('inview', function(e, inView){
+		if (inView) {
+			$(this).addClass('fade-in');
+		}
   })
   particlesJS("particle", {
     "particles": {
