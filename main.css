@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-weight: 1;
+  font-family: 'Klee One', cursive;
+}
+
+section {
+  width: 100vw;
+  padding-bottom: 50px;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.full-width {
+  min-width: 100vw;
+}
+
+.vertical-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.horizontal-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.navigation-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+}
+
+.intro-large-container {
+  width: 100%;
+}
+
+.intro-medium-container {
+  width: 1000px;
+}
+
+.intro-small-container {
+  width: 400px;
+  margin: 30px;
+}
+
+.button {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button-blue {
+  background-color: rgb(60, 89, 212);
+}
+
+.button-yellow {
+  background-color: rgb(255, 191, 0);
+}
+
+.button-orange {
+  background-color: rgb(241, 101, 42);
+}
+
+.button-lightblue {
+  background-color: rgb(42, 169, 223);
+}
+
+.button-gray {
+  background-color: rgb(51, 51, 51);
+}
+
+.button-red {
+  background-color: rgb(255, 82, 82);
+}
+
+.button-lightyellow {
+  background-color: rgb(255, 215, 2);
+}
+
+.button-lightorange {
+  background-color: rgb(188, 87, 39);
+}
+
+.button-verylightblue {
+  background-color: rgb(115, 206, 221);
+}
+
+.intro-image {
+  width: 400px;
+  margin: 30px;
+}
+
+.course-large-container {
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.course-small-container {
+  width: 200px;
+  margin: 10px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+}
+
+/* .slider-images {
+    width: 175px;
+} */
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0;
+  animation: bg-animation 25s infinite;
+  z-index: -1;
+}
+
+.s1 {
+  background: url(images/background1.jpg);
+  background-size: cover;
+}
+
+.s2 {
+  background: url(images/background2.jpg);
+  background-size: cover;
+  animation-delay: 5s;
+}
+
+.s3 {
+  background: url(images/background3.jpg);
+  background-size: cover;
+  animation-delay: 10s;
+}
+
+.s4 {
+  background: url(images/background4.jpg);
+  background-size: cover;
+  animation-delay: 15s;
+}
+
+.s5 {
+  background: url(images/background5.jpg);
+  background-size: cover;
+  animation-delay: 20s;
+}
+
+@keyframes bg-animation {
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.slider {
+  width: 1000px;
+}
+
+.slider-div {
+  position: relative;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider-div img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+}
+
+/* .slick-dots {
+  height: 25px;
+} */
+.happy-hack {
+  width: 60vw;
+}
+
+.course-small-container div {
+  width: 150px;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin: 0 30px;
+}
+
+.navigation-container ul li {
+  display: inline-block;
+}
+
+.navigation {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(62, 92, 219);
+  font-size: 50px;
+  margin: 30px;
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-text {
+  color: rgb(62, 92, 219);
+}
+
+.course-name {
+  font-size: 15px;
+}
+
+#particle {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(213, 230, 249);
+}
+
+canvas {
+  display: block;
+}
