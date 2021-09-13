@@ -321,6 +321,96 @@ canvas {
   opacity: 1;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro-medium-container {
+    width: 700px;
+  }
+
+  .intro-small-container {
+    width: 250px;
+    margin: 30px;
+  }
+  .intro-image {
+    width: 250px;
+    margin: 30px;
+  }
+
+  .course-large-container {
+    width: 700px;
+    flex-wrap: wrap;
+  }
+
+  .course-small-container {
+    width: 150px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    height: 220px;
+  }
+  .slider {
+    width: 700px;
+  }
+
+  .slider-div {
+    position: relative;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro-medium-container {
+    width: 500px;
+  }
+
+  .intro-small-container {
+    width: 180px;
+    margin: 30px;
+  }
+  .intro-image {
+    width: 180px;
+    margin: 30px;
+  }
+
+  .course-large-container {
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+  .course-small-container {
+    width: 120px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    height: 180px;
+  }
+  .slider {
+    width: 500px;
+  }
+
+  .slider-div {
+    position: relative;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .button {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 9px;
+    margin: 5px;
+  }
+}
 
 
 @media screen and (max-width: 480px) {
