@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Futura";
+  src: url(fonts/Futura-Med.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Futura-Bold";
+  src: url(fonts/Futura-Bol.ttf) format("truetype");
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +18,10 @@
   box-sizing: border-box;
   background-repeat: no-repeat;
   font-weight: 1;
-  font-family: 'Klee One', cursive;
+  font-family: 'Futura', serif;
 }
+
+
 
 section {
   width: 100vw;
@@ -247,13 +262,13 @@ section {
 .navigation {
   text-decoration: none;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Futura";
   margin: 0 10px;
   font-size: 20px;
 }
 
 .subtitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Futura-Bold";
   color: white;
   font-style: italic;
   font-size: 30px;
@@ -261,7 +276,7 @@ section {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Futura-Bold";
   color: rgb(62, 92, 219);
   font-size: 50px;
   margin: 30px;
@@ -305,6 +320,7 @@ canvas {
 .fade-in {
   opacity: 1;
 }
+
 
 
 @media screen and (max-width: 480px) {
